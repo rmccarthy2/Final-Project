@@ -1,0 +1,50 @@
+body {
+	background-color: tan
+}
+ul {
+	float: left;
+	margin: 0;
+}
+li a {
+	text-decoration: none;
+	display:block;
+	color: black;
+	padding: 6px 12px;
+	}
+li a:hover {
+	color: blue;
+}
+header {
+	text-align: center;
+	background-color: white;
+	color: grey;
+}
+canvas {
+	background: black;
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: .1;
+    z-index: 1;
+}
+#paragraph {
+	color: black;
+	align-content:center;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	max-height: auto;
+	font-size: 30px;
+}
+footer {
+	position: absolute;
+	right:0;
+	left:0;
+	bottom:0;
+	background-color: grey;
+	text-align: center;
+}

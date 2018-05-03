@@ -1,0 +1,70 @@
+<!doctype HTML>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Canvas Test</title>
+  <link rel='stylesheet' type='text/css' src='canvas.css'/>
+</head>
+<body>
+	<style type="text/css">
+		body {
+			margin:0;
+		}
+		canvas {
+			background-color: #000064;
+			position: absolute;
+			top:0;
+			left:0;
+			z-index: -1;
+		}
+		heading {
+			text-align: center;
+			color:#965F19;
+		}
+		ul {
+			float: left;
+			margin: 0;
+		}
+		li a {
+			text-decoration: none;
+			display:block;
+			color: #965F19;
+			padding: 6px 12px;
+		}
+		li a:hover {
+			color:red;
+		}
+		#description {
+			color: #965F19;
+			width: 20%;
+			float: left;
+			padding: 0px;
+			margin-top: 0;
+		}
+		footer {
+			position: absolute;
+			right:0;
+			left:0;
+			bottom:0;
+			background-color: grey;
+			text-align: center;
+		}
+	</style>
+  <canvas></canvas>
+  <heading>
+  	<h1>Welcome to my Final Project</h1>
+  </heading>
+  	<ul>
+		<li><a href = 'canvas-homepage.html'>Home</a></li>
+		<li><a href = 'canvas.html'>Main Project</a></li>
+		<li><a href = 'canvas-info.html'>Info</a></li>
+	</ul>
+	<div id = 'description'>
+		<p>Go ahead and move your mouse around the screen. Where ever you move your mouse it appears that there are 'bubbles' that follow it.</p>
+	</div>
+	<footer>
+		<p>&copy 2018 Robert McCarthy </p>
+	</footer>
+  <script src='canvas.js'></script>
+</body>
+</html>

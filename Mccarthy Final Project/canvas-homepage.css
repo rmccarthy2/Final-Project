@@ -1,0 +1,38 @@
+body {
+	background: linear-gradient(to right, green, white, white, orange);
+	}
+header {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding:3px;
+}
+ul {
+	float: left;
+	margin: 0;
+}
+li a {
+	text-decoration: none;
+	display:block;
+	color: white;
+	padding: 6px 12px;
+	}
+li a:hover {
+	color: green;
+}
+#paragraph {
+	color: black;
+	align-content:center;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-size: 30px;
+}
+footer {
+	position: absolute;
+	right:0;
+	left:0;
+	bottom:0;
+	background-color: grey;
+	text-align: center;
+}
